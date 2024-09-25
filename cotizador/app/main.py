@@ -9,10 +9,11 @@ def main():
     acabado = Acabado('pulido')
 
     # Crear un vidrio transparente
-    vidrio = Vidrio('transparente')
+    vidrio_esmerilado = Vidrio('transparente', esmerilado=False)# Si se desea colocar vidrio tipo esmerillado se cambia el False por True 
+
 
     # Crear una ventana de estilo XO
-    ventana_xo = Ventana('XO', 18, 15, acabado, vidrio)     # Estilo XO
+    ventana_xo = Ventana('XO', 18, 15, acabado, vidrio_esmerilado)     # Estilo XO
 
     # Crear una cotización para la ventana XO
     # ejemplo de descuento ventana el precio normal es 8.371.082 con descuento queda en 7.533.973
