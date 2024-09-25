@@ -13,4 +13,4 @@ class Acabado:
         self.precio_por_metro_lineal = Acabado.precios[tipo]
     
     def __str__(self):
-        return f"Acabado {self.tipo}, Precio por metro lineal: {self.precio_por_metro_lineal}"
+        return f"Acabado {self.tipo}, Precio por cm lineal: {self.precio_por_metro_lineal}"

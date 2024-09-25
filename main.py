@@ -10,18 +10,14 @@ def main():
     # Crear un vidrio transparente
     vidrio = Vidrio('transparente')
     
-    # Aquí puedes cambiar el ancho y el alto de la ventana sin modificar la clase Nave
-    ancho_cm = float(input("Ingrese el ancho de la ventana en cm: "))
-    alto_cm = float(input("Ingrese el alto de la ventana en cm: "))
+    # Crear una ventana de estilo XO
+    ventana_xo = Ventana('XO', 18, 15, acabado, vidrio)     # Estilo XO
     
-    # Crear una ventana estilo 'O' con las dimensiones ingresadas
-    ventana = Ventana('O', ancho_cm, alto_cm, acabado, vidrio)
-    
-    # Crear una cotización para esta única ventana
-    cotizacion = Cotizacion([ventana], 1)
+    # Crear una cotización para la ventana XO
+    cotizacion = Cotizacion([ventana_xo], 101)#ejemplo de descuento ventana
     
     # Imprimir el costo total de la cotización
-    print(f"El costo total es: {cotizacion.total} COP")
+    print(f"El costo total de las ventanas es: {cotizacion.total} COP")
 
 if __name__ == "__main__":
     main()
