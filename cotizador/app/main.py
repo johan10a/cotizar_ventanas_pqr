@@ -3,21 +3,24 @@ from vidrio import Vidrio
 from ventana import Ventana
 from cotizacion import Cotizacion
 
+
 def main():
     # Crear un acabado (pulido)
     acabado = Acabado('pulido')
-    
+
     # Crear un vidrio transparente
     vidrio = Vidrio('transparente')
-    
+
     # Crear una ventana de estilo XO
     ventana_xo = Ventana('XO', 18, 15, acabado, vidrio)     # Estilo XO
-    
+
     # Crear una cotización para la ventana XO
-    cotizacion = Cotizacion([ventana_xo], 101)#ejemplo de descuento ventana
-    
+    # ejemplo de descuento ventana el precio normal es 8.371.082 con descuento queda en 7.533.973
+    cotizacion = Cotizacion([ventana_xo], 101)
+
     # Imprimir el costo total de la cotización
     print(f"El costo total de las ventanas es: {cotizacion.total} COP")
+
 
 if __name__ == "__main__":
     main()
