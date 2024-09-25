@@ -41,7 +41,6 @@
 ## Requerimientos No Funcionales
 
 
-
 1. **Interfaz de usuario**:
    - El sistema debe ser fácil de usar, permitiendo a los usuarios ingresar las dimensiones, seleccionar el estilo de ventana y los materiales, y generar una cotización de manera rápida y eficiente.
 
