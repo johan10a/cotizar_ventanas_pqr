@@ -19,7 +19,8 @@
      - Transparente
      - Bronce
      - Azul
-   - El costo del vidrio se calcula por cm² (área) y debe ser 1.5 cm más pequeño en cada lado del tamaño de la nave.
+     - Se debe añadir una opción para aplicar esmerillado a cualquier tipo de vidrio, lo que agrega un costo adicional.
+     - El costo del vidrio se calcula por cm² (área) y debe ser 1.5 cm más pequeño en cada lado del tamaño de la nave.
 
 4. **Esquinas y chapas**:
    - El sistema debe incluir el costo de las esquinas y las chapas.
@@ -29,7 +30,7 @@
 5. **Cálculos**:
    - El sistema debe calcular el costo total de una ventana considerando:
      - Aluminio (acabado)
-     - Vidrio 
+     - Vidrio (con o sin esmerillado)
      - Chapas (si aplica)
      - Esquinas
    - El costo del aluminio debe incluir los perfiles, restando el tamaño de las esquinas y considerando su inserción.

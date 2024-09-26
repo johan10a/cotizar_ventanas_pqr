@@ -11,7 +11,7 @@ class Vidrio:
         self.tipo = tipo
         self.precio_por_cm2 = Vidrio.precios[tipo]
         self.esmerilado = esmerilado
-        self.precio_esmerilado = 5.20 if esmerilado else 0
+        self.precio_esmerilado = 5.20 if esmerilado else 0 #Vidrio esmerillado
     
     def calcular_costo(self, area_cm2):
         return (self.precio_por_cm2 + self.precio_esmerilado) * area_cm2
