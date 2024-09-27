@@ -1,5 +1,5 @@
-from acabado import Acabado
-from vidrio import Vidrio
+from app.acabado import Acabado
+from app.vidrio import Vidrio
 
 class Nave:
     def __init__(self, ancho_cm, alto_cm, es_movil, acabado, vidrio):

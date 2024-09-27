@@ -1,4 +1,4 @@
-from nave import Nave
+from app.nave import Nave
 
 class Ventana:
     def __init__(self, estilo, ancho_total, alto_total, acabado, vidrio):

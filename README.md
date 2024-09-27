@@ -58,3 +58,8 @@ El **Sistema de Cotización de Ventanas** es una aplicación diseñada para faci
    ```bash
    python cotizar_ventanas_pqr/cotizador/app/main.py
    ```
+   Ejecutar las pruebas:
+
+```bash
+$ python -m unittest
+```

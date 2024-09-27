@@ -7,6 +7,7 @@ from cotizacion import Cotizacion
 def main():
     # Crear un acabado (pulido)
     acabado = Acabado('pulido')
+    
 
     # Crear un vidrio (transparente)
     vidrio_esmerilado = Vidrio('transparente', esmerilado=False)# Si se desea colocar vidrio tipo esmerillado se cambia el False por True 
